@@ -33,5 +33,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //MVVMHabit
     implementation project(':module_sdk')
+    //MVVMHabit
+    implementation project(':mvvmhabit')
     implementation rootProject.ext.androidx["androidx-appcompat"]
 }

@@ -27,9 +27,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    //MVVMHabit
-    implementation project(':mvvmhabit')
-
     implementation rootProject.ext.androidx["androidx-appcompat"]
     implementation rootProject.ext.androidx["constraintlayout"]
     implementation rootProject.ext.dependencies["core-ktx"]
