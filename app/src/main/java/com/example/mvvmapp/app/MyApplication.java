@@ -5,6 +5,7 @@ import android.app.Application;
 import com.example.mvvmapp.BuildConfig;
 import com.example.mvvmapp.MainActivity;
 import com.example.mvvmapp.R;
+import com.squareup.leakcanary.LeakCanary;
 
 import me.goldze.mvvmhabit.base.BaseApplication;
 import me.goldze.mvvmhabit.crash.CaocConfig;
@@ -19,9 +20,9 @@ public class MyApplication extends BaseApplication {
         //初始化全局异常崩溃
         initCrash();
         //内存泄漏检测
-//        if (!LeakCanary.isInAnalyzerProcess(this)) {
-//            LeakCanary.install(this);
-//        }
+        if (!LeakCanary.isInAnalyzerProcess(this)) {
+            LeakCanary.install(this);
+        }
     }
 
     private void initCrash() {

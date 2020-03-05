@@ -2,12 +2,16 @@ package com.example.mvvmapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProviders
+import com.example.mvvmapp.databinding.ActivityMainBinding
+import me.goldze.mvvmhabit.base.BaseActivity
 
-
-class MainActivity : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<ActivityMainBinding,MainViewModel>() {
+    override fun initContentView(savedInstanceState: Bundle?): Int {
+        return R.layout.activity_main
     }
+    override fun initVariableId(): Int {
+       return BR.viewModel
+    }
+
 }
