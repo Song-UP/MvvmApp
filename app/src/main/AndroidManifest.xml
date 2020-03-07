@@ -26,6 +26,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.recycleview.single.RyViewActivity"/>
+        <activity android:name=".ui.recycleview.multi.MultiRyViewActivity"/>
     </application>
 
 </manifest>

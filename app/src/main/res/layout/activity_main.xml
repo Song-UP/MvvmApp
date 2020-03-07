@@ -24,13 +24,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="button1"
+            android:text="recyleview使用"
             app:onClickCommand="@{viewModel.click2}"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="button2"
+            android:text="多布局view"
             android:onClick="@{(view)->viewModel.onClick3(view)}"
             />
 
