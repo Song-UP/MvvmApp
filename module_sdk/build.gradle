@@ -30,6 +30,7 @@ dependencies {
     implementation rootProject.ext.androidx["androidx-appcompat"]
     implementation rootProject.ext.androidx["constraintlayout"]
     implementation rootProject.ext.dependencies["core-ktx"]
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version" //这个要加上不然会报错
+
 
 }

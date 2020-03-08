@@ -71,11 +71,14 @@ ext {
             "bindingcollectionadapter-recyclerview": "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0",
             //Google AAC
             "lifecycle-extensions"                 : "android.arch.lifecycle:extensions:1.1.1",
-            "lifecycle-compiler"                 : "android.arch.lifecycle:compiler:1.1.1",
+            "lifecycle-compiler"                   : "android.arch.lifecycle:compiler:1.1.1",
             //MVVMHabit
             "MVVMHabit"                            : "com.github.goldze:MVVMHabit:3.1.3",
+
+            //以下是新加需要的库
             //Kotlin 扩展库
-            'core-ktx'                             : "androidx.core:core-ktx:1.2.0"
+            'core-ktx'                             : "androidx.core:core-ktx:1.2.0",
+            'BaseRecyclerViewAdapterHelper'        :'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
     ]
 }
 

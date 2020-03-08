@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.databinding.ObservableField
 import com.example.mvvmapp.ui.recycleview.multi.MultiRyViewActivity
+import com.example.mvvmapp.ui.recycleview.multi02.MultiRyView02Activity
 import com.example.mvvmapp.ui.recycleview.single.RyViewActivity
 import me.goldze.mvvmhabit.base.BaseModel
 
@@ -30,7 +31,7 @@ class MainViewModel(application: Application) : BaseViewModel<BaseModel>(applica
 
     //点击-调用方法
     fun onClick3(it: View){
-        startActivity(MultiRyViewActivity::class.java)
+        startActivity(MultiRyView02Activity::class.java)
     }
 
 }

@@ -2,7 +2,7 @@
 <layout>
     <data>
         <variable
-            name="viewModel"
+            name="childItem"
             type="com.example.mvvmapp.ui.recycleview.multi.MultiItemViewModel" />
     </data>
     <LinearLayout
@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="@{viewModel.contentOb}"
+            android:text="@{childItem.rightOb}"
             android:gravity="center_vertical|right"
             android:layout_marginLeft="15dp"
             tools:text="初始值"
