@@ -44,4 +44,6 @@ dependencies {
 
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation rootProject.ext.dependencies["BaseRecyclerViewAdapterHelper"]
+    implementation rootProject.ext.dependencies["MagicIndicator"]
+
 }

@@ -7,6 +7,7 @@ import androidx.databinding.ObservableField
 import com.example.mvvmapp.ui.recycleview.multi.MultiRyViewActivity
 import com.example.mvvmapp.ui.recycleview.multi02.MultiRyView02Activity
 import com.example.mvvmapp.ui.recycleview.single.RyViewActivity
+import com.example.mvvmapp.ui.viewPager.ViewPageActivity
 import me.goldze.mvvmhabit.base.BaseModel
 
 import me.goldze.mvvmhabit.base.BaseViewModel
@@ -33,5 +34,8 @@ class MainViewModel(application: Application) : BaseViewModel<BaseModel>(applica
     fun onClick3(it: View){
         startActivity(MultiRyView02Activity::class.java)
     }
+
+
+    val click4 = BindingCommand<View>(BindingAction { startActivity(ViewPageActivity::class.java) })
 
 }

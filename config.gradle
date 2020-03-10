@@ -78,7 +78,9 @@ ext {
             //以下是新加需要的库
             //Kotlin 扩展库
             'core-ktx'                             : "androidx.core:core-ktx:1.2.0",
-            'BaseRecyclerViewAdapterHelper'        :'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+            'BaseRecyclerViewAdapterHelper'        :'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30',
+            //MagicIndicator  指示器
+            'MagicIndicator'                       : 'com.github.hackware1993:MagicIndicator:1.5.0'
     ]
 }
 

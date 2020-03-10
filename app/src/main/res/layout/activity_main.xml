@@ -34,6 +34,13 @@
             android:onClick="@{(view)->viewModel.onClick3(view)}"
             />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="viewpage配合指示器的使用"
+            app:onClickCommand="@{viewModel.click4}"
+            />
+
     </LinearLayout>
 
 

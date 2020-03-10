@@ -29,6 +29,7 @@
         <activity android:name=".ui.recycleview.single.RyViewActivity"/>
         <activity android:name=".ui.recycleview.multi.MultiRyViewActivity"/>
         <activity android:name=".ui.recycleview.multi02.MultiRyView02Activity"/>
+        <activity android:name=".ui.viewPager.ViewPageActivity"/>
     </application>
 
 </manifest>
