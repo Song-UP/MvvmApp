@@ -4,6 +4,6 @@ import android.app.Application
 import me.goldze.mvvmhabit.base.BaseModel
 import me.goldze.mvvmhabit.base.BaseViewModel
 
-class NullViewPage(application: Application):BaseViewModel<BaseModel>(application){
+class NullBaseViewModel(application: Application):BaseViewModel<BaseModel>(application){
 
 }

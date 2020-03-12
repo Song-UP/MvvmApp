@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import com.example.mvvmapp.BR
 import com.example.mvvmapp.R
 import com.example.mvvmapp.databinding.FragmentMyBinding
-import com.example.mvvmapp.ui.NullViewPage
+import com.example.mvvmapp.ui.NullBaseViewModel
 
 import me.goldze.mvvmhabit.base.BaseFragment
 
-class MyFragment:BaseFragment<FragmentMyBinding, NullViewPage>(){
+class MyFragment:BaseFragment<FragmentMyBinding, NullBaseViewModel>(){
     override fun initContentView(
         inflater: LayoutInflater?,
         container: ViewGroup?,
