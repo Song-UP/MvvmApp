@@ -3,7 +3,7 @@
     <data>
         <variable
             name="childItem"
-            type="com.example.mvvmapp.ui.recycleview.multi.MultiItemViewModel" />
+            type="com.example.mvvmapp.ui.recycleview.been.MultiItemViewModel" />
     </data>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

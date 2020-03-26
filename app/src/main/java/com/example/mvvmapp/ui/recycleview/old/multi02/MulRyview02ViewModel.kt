@@ -1,4 +1,4 @@
-package com.example.mvvmapp.ui.recycleview.multi02
+package com.example.mvvmapp.ui.recycleview.old.multi02
 
 import android.app.Application
 import me.goldze.mvvmhabit.base.BaseModel

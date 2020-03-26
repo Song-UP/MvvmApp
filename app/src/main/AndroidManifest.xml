@@ -28,8 +28,12 @@
         </activity>
         <activity android:name=".ui.recycleview.single.RyViewActivity"/>
         <activity android:name=".ui.recycleview.multi.MultiRyViewActivity"/>
-        <activity android:name=".ui.recycleview.multi02.MultiRyView02Activity"/>
+<!--        <activity android:name=".ui.recycleview.multi02.MultiRyView02Activity"/>-->
         <activity android:name=".ui.viewPager.ViewPageActivity"/>
+        <activity android:name=".ui.recycleview.new_file.common.single.RyViewActivity"/>
+        <activity android:name=".ui.recycleview.new_file.common.multi.MultiActivity"/>
+        <activity android:name=".ui.recycleview.new_file.common.section.SectionActivity"/>
+        <activity android:name=".ui.recycleview.node.NodeRyviewActivity"/>
     </application>
 
 </manifest>

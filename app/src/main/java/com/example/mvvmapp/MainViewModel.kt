@@ -4,9 +4,10 @@ import android.app.Application
 import android.view.View
 import android.widget.TextView
 import androidx.databinding.ObservableField
-import com.example.mvvmapp.ui.recycleview.multi.MultiRyViewActivity
-import com.example.mvvmapp.ui.recycleview.multi02.MultiRyView02Activity
-import com.example.mvvmapp.ui.recycleview.single.RyViewActivity
+import com.example.mvvmapp.ui.recycleview.new_file.common.multi.MultiActivity
+import com.example.mvvmapp.ui.recycleview.new_file.common.section.SectionActivity
+import com.example.mvvmapp.ui.recycleview.new_file.common.single.RyViewActivity
+import com.example.mvvmapp.ui.recycleview.node.NodeRyviewActivity
 import com.example.mvvmapp.ui.viewPager.ViewPageActivity
 import me.goldze.mvvmhabit.base.BaseModel
 
@@ -32,10 +33,21 @@ class MainViewModel(application: Application) : BaseViewModel<BaseModel>(applica
 
     //点击-调用方法
     fun onClick3(it: View){
-        startActivity(MultiRyView02Activity::class.java)
+//        startActivity(MultiRyView02Activity::class.java)
+//        startActivity(RyViewActivity::class.java)
+        startActivity(MultiActivity::class.java)
     }
 
 
     val click4 = BindingCommand<View>(BindingAction { startActivity(ViewPageActivity::class.java) })
+
+
+    val click5 = BindingCommand<View>(BindingAction {
+        startActivity(SectionActivity::class.java)
+    })
+
+    val click6 = BindingCommand<View>(BindingAction {
+        startActivity(NodeRyviewActivity::class.java)
+    })
 
 }

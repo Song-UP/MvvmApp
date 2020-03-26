@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
-
     <data>
+        <import type="me.tatarka.bindingcollectionadapter2.LayoutManagers"/>
+        <import type="me.goldze.mvvmhabit.binding.viewadapter.recyclerview.LineManagers"/>
         <variable
-            name="viewModel"
-            type="com.example.mvvmapp.ui.recycleview.old.multi02.MulRyview02ViewModel" />
+                name="viewModel"
+                type="com.example.mvvmapp.ui.NullBaseViewModel" />
     </data>
+
     <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"

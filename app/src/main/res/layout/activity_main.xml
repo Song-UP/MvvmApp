@@ -37,9 +37,25 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="多布局view的 section"
+            app:onClickCommand="@{viewModel.click5}"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可折叠的Node view的"
+            app:onClickCommand="@{viewModel.click6}"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="viewpage配合指示器的使用"
             app:onClickCommand="@{viewModel.click4}"
             />
+
+
 
     </LinearLayout>
 

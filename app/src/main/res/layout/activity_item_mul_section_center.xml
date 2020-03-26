@@ -3,7 +3,7 @@
     <data>
         <variable
             name="childItem"
-            type="com.example.mvvmapp.ui.recycleview.been.MultiItemViewModel" />
+            type="com.example.mvvmapp.ui.recycleview.new_file.common.section.SectionBeen" />
     </data>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,12 +13,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="@{childItem.titleOb}"
-            android:gravity="center_vertical"
-            android:layout_marginLeft="15dp"
+            android:text="@{childItem.contentOb}"
+            android:gravity="center_vertical|center_horizontal"
             tools:text="初始值"
             android:textColor="@color/black"
-            android:background="@android:color/holo_blue_bright"
             />
 
     </LinearLayout>

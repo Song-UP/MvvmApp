@@ -3,6 +3,7 @@ package com.example.mvvmapp.ui.recycleview.multi
 import android.app.Application
 import androidx.databinding.ObservableArrayList
 import com.example.mvvmapp.R
+import com.example.mvvmapp.ui.recycleview.been.MultiItemViewModel
 import me.goldze.mvvmhabit.base.BaseModel
 
 import me.goldze.mvvmhabit.base.BaseViewModel
@@ -14,7 +15,7 @@ class MultiRyViewModel(application: Application) : BaseViewModel<BaseModel>(appl
 
 
     val itemBinding1 = ItemBinding.of<MultiItemViewModel>(OnItemBind { itemBinding, position, item ->
-        when(item.type){
+        when(item.itemType){
             MultiItemViewModel.TYPE_TITLE -> itemBinding.set(BR.viewModel, R.layout.activity_item_mul_title)
             MultiItemViewModel.TYPE_CENTER -> itemBinding.set(BR.viewModel,R.layout.activity_item_mul_center)
             MultiItemViewModel.TYPE_RIGHT -> itemBinding.set(BR.viewModel,R.layout.activity_item_mul_right)
