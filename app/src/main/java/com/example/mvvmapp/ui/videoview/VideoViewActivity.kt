@@ -5,11 +5,11 @@ import android.net.Uri
 import android.os.Bundle
 import com.example.mvvmapp.R
 import com.example.mvvmapp.databinding.ActivityVideoviewBinding
-import com.example.mvvmapp.ui.NullBaseViewModel
+import me.goldze.mvvmhabit.base.NullBaseViewModel
 import me.goldze.mvvmhabit.base.BaseActivity
 import me.tatarka.bindingcollectionadapter2.BR
 
-class VideoViewActivity: BaseActivity<ActivityVideoviewBinding,NullBaseViewModel>(){
+class VideoViewActivity: BaseActivity<ActivityVideoviewBinding, NullBaseViewModel>(){
     override fun initContentView(savedInstanceState: Bundle?): Int {
         return R.layout.activity_videoview
     }

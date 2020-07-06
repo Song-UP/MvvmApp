@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import com.example.mvvmapp.BR
 import com.example.mvvmapp.R
 import com.example.mvvmapp.databinding.FragmentMyBinding
-import com.example.mvvmapp.ui.NullBaseViewModel
+import me.goldze.mvvmhabit.base.NullBaseViewModel
 
 import me.goldze.mvvmhabit.base.BaseFragment
 

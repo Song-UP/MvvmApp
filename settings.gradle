@@ -1,1 +1,2 @@
 include ':app', ':mvvmhabit', ':module_sdk'
+include ':module_videoplay'

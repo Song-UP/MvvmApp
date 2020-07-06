@@ -1,4 +1,4 @@
-package com.example.mvvmapp.ui
+package me.goldze.mvvmhabit.base
 
 import android.app.Application
 import me.goldze.mvvmhabit.base.BaseModel

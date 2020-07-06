@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+    <com.xiaomai.module_videoplay.video.ExoVideoPlayerView
+        android:id="@+id/exoPlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5500FF00"/>
+
+    <!-- 视频播放手势的一些分装，后续慢慢往这里逐步替换 -->
+    <com.xiaomai.module_videoplay.video.control.VideoControlView
+        android:id="@+id/viewControlView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</FrameLayout>
